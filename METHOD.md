@@ -54,8 +54,12 @@ Maintain `design-notes/decision-log.md` as a concise active-decision record, not
 
 Keep `design-notes/progress.md` with completed stage outputs, the current task and the next unresolved action. Project audits/maps remain per project. During multi-page builds, each project gets a small implementation status note. Update these at meaningful checkpoints instead of narrating every command.
 
-A handoff should let another session answer: What is current? Why? Where is the supporting source? What is built? What has actually been checked? What remains?
+The final audit and maintenance record should let another session answer: What is current? Why? Where is the supporting source? What is built? What has actually been checked? What remains?
 
 ## Working tone
 
 Be direct, specific and considerate. Use her own words where appropriate and discuss work as a capable collaborator. Do not add pet names, staged excitement, personality diagnoses or constant reassurance. A recommendation with evidence and a small next step is more helpful than praise or another questionnaire.
+
+## Finish by checking intent as well as implementation
+
+Run Mobile Responsive Design (07) to adapt interactions and components for constrained layouts and touch, then Design Audit (06) to compare the actual site to the active documentation. Record approved mobile substitutions as decisions rather than treating them as unexplained inconsistencies. The audit combines visual/content/behaviour verification and the current maintenance record. Earlier planning notes remain the contract unless a later owner decision changes them; do not rewrite the contract just to claim success.

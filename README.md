@@ -1,6 +1,6 @@
 # Design Sesh Portfolio Builder
 
-The skills now include detailed execution procedures, handoff requirements and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
+The skills now include detailed execution procedures, input/output contracts and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
 
 Need setup help? See [INSTALL.md](INSTALL.md) for Claude, ChatGPT Projects and local Codex.
 
@@ -10,9 +10,9 @@ Read [WELCOME.md](WELCOME.md) for the complete workflow, folder setup and search
 
 ## Recommended portfolio workflow
 
-**01 → 02 → 11 → 03 → 08 (repeat for each project) → 12 → 04 → 05 → 09 → 10 → 06 → 07**
+**01 → 02 → 11 → 03 → 08 (repeat for each project) → 12 → 04 → 05 → 09 → 10 → 07 → 06**
 
-Folder numbers are stable skill IDs, not the execution order. Project preparation happens before site planning; Projects and About are built before the final review and handoff.
+Folder numbers are stable skill IDs, not the execution order. Project preparation happens before site planning. Projects and About are followed by mobile/touch adaptation, then a design audit against the earlier documentation.
 
 ## All 12 skills
 
@@ -28,8 +28,8 @@ Folder numbers are stable skill IDs, not the execution order. Project preparatio
 | 8 | [Skill 05](skills/05-build-personal-site/SKILL.md) — Build the site foundation | Uses site blueprint, chosen direction and approved assets | A working local site, shared design system and page foundations |
 | 9 | [Skill 09](skills/09-build-projects-page/SKILL.md) — Build Projects and agreed case studies | Uses prepared projects, blueprint and existing site | A Projects collection with real destinations and any agreed detail pages |
 | 10 | [Skill 10](skills/10-build-about-page/SKILL.md) — Build About in your voice | Uses confirmed biography, personality brief and approved personal assets | An About page that matches you and the rest of the site |
-| 11 | [Skill 06](skills/06-personality-and-usability-review/SKILL.md) — Review and refine the whole site | Uses working site, identity notes and your feedback | Supported fixes and a report of actual checks and remaining limits |
-| 12 | [Skill 07](skills/07-personal-site-handoff/SKILL.md) — Make the site easy to maintain | Uses finished implementation, review and active design choices | Editing instructions, identity notes and remaining launch work |
+| 11 | [Skill 07](skills/07-mobile-responsive-design/SKILL.md) — Mobile Responsive Design | Uses the built site, blueprint and existing components | Responsive implementation, touch-friendly alternatives and mobile verification |
+| 12 | [Skill 06](skills/06-design-audit/SKILL.md) — Design Audit | Uses the rendered site and active documentation from earlier skills | Requirement-to-output audit, scoped fixes, retests and current maintenance notes |
 
 ## How to use
 
@@ -40,7 +40,7 @@ Folder numbers are stable skill IDs, not the execution order. Project preparatio
 
 You provide answers during Skill 02, choose colours with Skill 11, select a direction with Skill 03 and shape your story with Skill 12. Claude should not guess your personality from a mood board. Later, tell it which copy and details feel natural or forced.
 
-For a general personal site without a project collection, use **01 → 02 → 11 → 03 → 12 → 04 → 05 → 06 → 07**. For an existing portfolio, run only the needed preparation/page skills, followed by **06 → 07**.
+For a general personal site without a project collection, use **01 → 02 → 11 → 03 → 12 → 04 → 05 → 07 → 06**. For an existing portfolio, run only the needed preparation/page skills, followed by **07 (mobile adaptation) → 06 (design audit)**.
 
 ## What makes this personal
 

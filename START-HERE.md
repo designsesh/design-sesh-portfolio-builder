@@ -1,6 +1,6 @@
 # Start here: build a portfolio that feels like you
 
-The skills now include detailed execution procedures, handoff requirements and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
+The skills now include detailed execution procedures, input/output contracts and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
 
 Need setup help? See [INSTALL.md](INSTALL.md) for Claude, ChatGPT Projects and local Codex.
 
@@ -33,9 +33,9 @@ Use Claude in an environment that can inspect images and read/edit project files
 
 ## 2. Follow this portfolio sequence
 
-**01 → 02 → 11 → 03 → 08 (repeat for each project) → 12 → 04 → 05 → 09 → 10 → 06 → 07**
+**01 → 02 → 11 → 03 → 08 (repeat for each project) → 12 → 04 → 05 → 09 → 10 → 07 → 06**
 
-The numbers name the skill folders; they are not a straight numerical checklist. In particular, prepare project evidence with 08 before planning the whole site, and build Projects/About before 06 and 07.
+The numbers name the skill folders; they are not a straight numerical checklist. In particular, prepare project evidence with 08 before planning the whole site, and build Projects/About before 07 (mobile adaptation), then 06 (design audit).
 
 ## 3. Know what each skill needs and produces
 
@@ -53,8 +53,8 @@ All note paths below are relative to `design-notes/` in your website workspace.
 | 8 | [Skill 05](skills/05-build-personal-site/SKILL.md) — Build the site foundation | Site blueprint, chosen direction and approved assets | A working local site, shared design system and page foundations | `05-build-notes.md; 05-asset-manifest.csv` |
 | 9 | [Skill 09](skills/09-build-projects-page/SKILL.md) — Build Projects and agreed case studies | Prepared projects, blueprint and existing site | A Projects collection with real destinations and any agreed detail pages | `projects-page-build.md` |
 | 10 | [Skill 10](skills/10-build-about-page/SKILL.md) — Build About in your voice | Confirmed biography, personality brief and approved personal assets | An About page that matches you and the rest of the site | `about-content.md; about-page-build.md` |
-| 11 | [Skill 06](skills/06-personality-and-usability-review/SKILL.md) — Review and refine the whole site | Working site, identity notes and your feedback | Supported fixes and a report of actual checks and remaining limits | `06-review.md` |
-| 12 | [Skill 07](skills/07-personal-site-handoff/SKILL.md) — Make the site easy to maintain | Finished implementation, review and active design choices | Editing instructions, identity notes and remaining launch work | `07-owner-guide.md` |
+| 11 | [Skill 07](skills/07-mobile-responsive-design/SKILL.md) — Mobile Responsive Design | Built pages, component code and selected direction | Implemented responsive layouts and purposeful touch-friendly alternatives | `07-mobile-plan.md; 07-component-adaptations.csv; 07-mobile-review.md` |
+| 12 | [Skill 06](skills/06-design-audit/SKILL.md) — Design Audit | Built site, mobile results and the active earlier documentation | Traceable specification audit, fixes/retests and maintenance record | `06-design-audit.md; 06-design-audit-matrix.csv; site-maintenance.md` |
 
 Skill 08 runs once per project and stores separate notes for each. It records actual review coverage, duplicates, evidence, privacy issues and missing material. A file named FINAL is not automatically treated as authoritative.
 
@@ -110,13 +110,13 @@ Repeat this step for each project, changing the source path. Keep a separate pro
 
 > Read `design-sesh-portfolio-builder/skills/10-build-about-page/SKILL.md`. Build or complete my About page using my own voice, confirmed background and approved personal content. Ask only for important missing facts. Make its personal touches feel natural and consistent with my Projects page and the rest of the site.
 
-### Step 11: Review and refine the whole site — Skill 06
+### Step 11: Build and check mobile/touch layouts — Skill 07
 
-> Read `design-sesh-portfolio-builder/skills/06-personality-and-usability-review/SKILL.md`. Review the whole built site against my personality brief, selected direction and blueprint. Fix clear defects and mismatches, check the available responsive and accessibility behaviours, and distinguish checks performed from anything unverified. Ask me which details feel like me or feel forced.
+> Read `design-sesh-portfolio-builder/skills/07-mobile-responsive-design/SKILL.md`. Inspect and improve the built site for narrow screens and touch input. Identify desktop components that need a different mobile form, recommend purposeful alternatives, and implement the in-scope adaptations. Preserve content and the selected identity, test actual tasks and record desktop regressions and unavailable checks.
 
-### Step 12: Make the site easy to maintain — Skill 07
+### Step 12: Audit the result against the documentation — Skill 06
 
-> Read `design-sesh-portfolio-builder/skills/07-personal-site-handoff/SKILL.md`. Prepare the owner guide for the completed site, including preview instructions, where to edit content and assets, active identity decisions and remaining launch work. Update it to include the Projects and About pages. Do not publish as part of this handoff.
+> Read `design-sesh-portfolio-builder/skills/06-design-audit/SKILL.md`. Audit the implemented site against my active personality brief, palette, direction, story, blueprints, project evidence and mobile decisions. Map requirements to actual output, fix supported mismatches and retest. Record intentional deviations and unverified items. Reconcile the current editing/maintenance notes as part of the audit; do not publish.
 
 ## 5. Continue without starting over
 
@@ -128,10 +128,14 @@ If your preferences change, update the selected direction and name which downstr
 
 ## 6. Use a shorter route when appropriate
 
-- **General personal website:** 01 → 02 → 11 → 03 → 12 → 04 → 05 → 06 → 07. Omit the portfolio-specific stages if you do not need them.
-- **Add a project to an existing portfolio:** 08 for the new project → 09 to integrate the collection and any agreed detail page → 06 → 07.
-- **Refresh only About:** 10 → 06 → 07, using the existing personality brief and direction. Revisit 02 only if important personal context is missing or changed.
-- **Existing site needs both pages:** prepare projects with 08 as needed → 09 → 10 → 06 → 07. Keep its approved identity unless you request a redesign.
+- **General personal website:** 01 → 02 → 11 → 03 → 12 → 04 → 05 → 07 → 06. Omit the portfolio-specific stages if you do not need them.
+- **Add a project to an existing portfolio:** 08 for the new project → 09 to integrate the collection and any agreed detail page → 07 → 06.
+- **Refresh only About:** 10 → 07 → 06, using the existing personality brief and direction. Revisit 02 only if important personal context is missing or changed.
+- **Existing site needs both pages:** prepare projects with 08 as needed → 09 → 10 → 07 → 06. Keep its approved identity unless you request a redesign.
+
+## Migration from the previous review/handoff skills
+
+The former `06-personality-and-usability-review` and `07-personal-site-handoff` definitions have been replaced. Skill **06 is now Design Audit**, combining requirement-based verification with useful maintenance reconciliation. Skill **07 is now Mobile Responsive Design**, which runs before the audit. Keep any existing `06-review.md` or `07-owner-guide.md` as project history; the audit reads and reconciles useful content without deleting it. For locally linked installations, remove only obsolete discovery links and point to the new folders. For uploaded copies, disable/remove the retired definitions and upload the replacements using [INSTALL.md](INSTALL.md).
 
 ## 7. What to expect
 

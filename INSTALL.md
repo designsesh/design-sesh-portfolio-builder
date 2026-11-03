@@ -109,6 +109,10 @@ If something is missing:
 
 ## Run the portfolio sequence
 
-**01 → 02 → 11 → 03 → 08 (per project) → 12 → 04 → 05 → 09 → 10 → 06 → 07**
+**01 → 02 → 11 → 03 → 08 (per project) → 12 → 04 → 05 → 09 → 10 → 07 → 06**
 
 Use [WELCOME.md](WELCOME.md) for the overall process and [START-HERE.md](START-HERE.md) for prompts. Keep your own private source material and generated project maps outside this public repository.
+
+## Updating an installation from the earlier kit
+
+The two end-of-process skill definitions changed. Remove/disable the retired `personality-and-usability-review` and `personal-site-handoff` skill entries from the relevant product. Do not remove their generated project notes. Install/link `06-design-audit` and `07-mobile-responsive-design` instead, and run **07 → 06** after page building. Check for obsolete or dangling discovery links before creating replacement links. The pack still has 12 skills; the other IDs and existing project source material are unchanged.

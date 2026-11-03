@@ -1,12 +1,12 @@
 # Welcome to Design Sesh Portfolio Builder
 
-The skills now include detailed execution procedures, handoff requirements and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
+The skills now include detailed execution procedures, input/output contracts and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
 
 Need setup help? See [INSTALL.md](INSTALL.md) for Claude, ChatGPT Projects and local Codex.
 
 This is a practical workflow for building a portfolio from your own references, work and personality. You do not need to arrive with a perfect biography, tidy project files or a fully formed visual direction. Bring what you have; the skills help you work through it in a useful order.
 
-The process comes from the Design Sesh portfolio build: collect references, understand the work, organize one project at a time, map the strongest evidence into a story, plan layouts, build locally and review the result. This kit adapts that process to your identity. It does not prescribe Design Sesh's colours, interests, museum scenes or other personal motifs. It uses existing assets and code rather than image generation.
+The process comes from the Design Sesh portfolio build: collect references, understand the work, organize one project at a time, map the strongest evidence into a story, plan layouts, build locally, adapt components for mobile/touch and audit the result against the documented direction. This kit adapts that process to your identity. It does not prescribe Design Sesh's colours, interests, museum scenes or other personal motifs. It uses existing assets and code rather than image generation.
 
 Use this page to understand the journey. [START-HERE.md](START-HERE.md) has the exact prompts for each stage, and the [README](README.md) lists all 12 skills.
 
@@ -192,15 +192,19 @@ Before a large revision, record what can change and what is approved to stay as 
 
 Keep experiments recoverable and label the active choice. If you reject a cover or layout, retain it as an experiment without allowing an old note to override your newer direction. Optional motion comes after a coherent static page, with touch, keyboard and reduced-motion behaviour considered.
 
-## Phase 5: review, refine and hand over
+## Phase 5: design the mobile experience, then audit the site
 
-**06 Personality and usability review → 07 Owner handoff**
+**07 Mobile Responsive Design → 06 Design Audit**
 
-Review the real site on mobile, tablet and desktop where browser access permits. Check text wrapping, overlaps, scrolling, images, links, keyboard focus and motion alternatives. Review the voice and personal touches too: do they sound natural, and does the work remain easy to understand?
+Mobile is a designed form of the same website. After the main pages exist, Skill 07 checks which desktop layouts and interactions remain usable on narrower screens and with touch. It changes components when needed: hover captions can become persistent card text, hotspots can become visible numbered callouts, and a pinned sequence can become an ordinary reading sequence. It does not replace every component with an accordion or add app-like controls without a reason.
 
-Save useful screenshots and a report of checks actually performed. A static check cannot prove an animation is smooth. Missing browser access should be recorded as unverified rather than as a pass. Resolve clear defects, keep remaining questions visible and update implementation status.
+The skill records each component's purpose, failure, proposed alternative, trigger and retained content. It implements agreed adaptations, checks real navigation/reading tasks, inspects breakpoint transitions and revisits desktop behaviour. Outputs are `07-mobile-plan.md`, `07-component-adaptations.csv` and `07-mobile-review.md`, with actual verification evidence and explicit limits.
 
-The handoff explains how to preview, edit content, replace assets and add another project. It records the current identity and remaining launch work. Local completion and public deployment are separate steps; only reviewed web assets should be published.
+Skill 06 then audits the site against the documentation produced earlier: reference principles, personality brief, selected palette, design direction, personal story, site/project blueprints, source evidence and mobile decisions. It traces each requirement to an actual page/component/state. A visually polished site still fails a requirement if it uses the wrong story, omits evidence or contradicts a selected direction.
+
+The audit fixes supported mismatches within scope, retests them and records unresolved decisions without silently changing the specification to make the site pass. It also reconciles the practical maintenance information: preview commands, editable source files, generators, asset replacement and adding another project. This useful handoff material is part of the audit, not a separate stage.
+
+Outputs include `06-design-audit.md`, `06-design-audit-matrix.csv` and `site-maintenance.md`. Save screenshots and check results where tools permit. Distinguish actual-device testing, emulation, static checks and unverified behaviours. Local audit completion is separate from publication.
 
 ## Keep progress between Claude chats
 
@@ -210,10 +214,14 @@ A useful continuation prompt:
 
 > Continue my portfolio from the existing files. Read the current design notes and selected direction, then the relevant project audit, case-study plan and map. Reuse completed work and current decisions. Work on [specific next task], record changes and tell me what remains unverified.
 
-When you add a project later, repeat **08 → 09 → 06 → 07**, refreshing its map and notes. Revisit colour or personal story only when your preferences or goals have changed.
+When you add a project later, repeat **08 → 09 → 07 → 06**, refreshing its map and notes. Revisit colour or personal story only when your preferences or goals have changed.
+
+## Replacing the older end-of-process skills
+
+The earlier review and handoff skills are combined as **Design Audit (06)**. **Mobile Responsive Design (07)** is the new specialist implementation/checking stage before it. Existing project notes remain useful historical context; the new audit reconciles them rather than discarding the work.
 
 ## Your full route
 
-**01 References → 02 Personality → 11 Colours → 03 Direction → 08 Project preparation and maps → 12 Your story → 04 Blueprint → 05 Foundation → 09 Projects → 10 About → 06 Review → 07 Handoff.**
+**01 References → 02 Personality → 11 Colours → 03 Direction → 08 Project preparation and maps → 12 Your story → 04 Blueprint → 05 Foundation → 09 Projects → 10 About → 07 Mobile and touch → 06 Design audit.**
 
 You supply the work, decisions and what feels true to you. Claude helps inspect, organize, propose, build and verify. [Open START-HERE.md](START-HERE.md) when you are ready to run the first skill.
