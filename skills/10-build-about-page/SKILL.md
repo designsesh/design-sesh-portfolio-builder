@@ -11,7 +11,7 @@ Execute in the current website workspace using its active documentation and agre
 
 ## Ground the story in her own words
 
-Read the existing site and instructions; `02-personality-brief.md`, `03-selected-direction.md` and `04-site-blueprint.md`; and any biography, CV, writing samples or photos she explicitly supplies. Do not inspect unrelated personal folders. Reuse known answers and ask a short follow-up only for gaps that materially affect the page: what she wants to be known for, how she arrived here, what she cares about in her work, what she enjoys outside it, and what visitors should do next. Not every question needs an answer or a section.
+Read the existing site and instructions; `02-personality-brief.md`, `04-selected-direction.md` and `07-site-blueprint.md`; and any biography, CV, writing samples or photos she explicitly supplies. Do not inspect unrelated personal folders. Reuse known answers and ask a short follow-up only for gaps that materially affect the page: what she wants to be known for, how she arrived here, what she cares about in her work, what she enjoys outside it, and what visitors should do next. Not every question needs an answer or a section.
 
 Maintain `design-notes/about-content.md` with confirmed facts, short quoted voice samples, approved public details, copy draft and unresolved questions. A CV establishes history, not personality. Do not infer traits from career choices, diagnose personality, invent an origin story or add awards, clients, availability or job titles without support. Treat location/contact details and personal photographs according to her stated public/private boundaries.
 
@@ -33,14 +33,14 @@ Write `design-notes/about-page-build.md`: route/files, factual sources, publishe
 
 ## Reuse the story
 
-Read `design-notes/12-personal-story.md` when present and develop its selected angle and existing copy. Reuse corrections and exclusions. Ask only about missing facts or page-specific choices; do not restart the story interview. Read the selected palette as well as the chosen design direction.
+Read `design-notes/06-personal-story.md` when present and develop its selected angle and existing copy. Reuse corrections and exclusions. Ask only about missing facts or page-specific choices; do not restart the story interview. Read the selected palette as well as the chosen design direction.
 
 
 ## Detailed working procedure
 
 ### Reuse the selected story, not a new questionnaire
 
-Read Skill 12's copy and owner corrections, personality brief, palette and site direction. Build a facts/public-use table for biography, work history, interests, photos, CV and contact links. Ask only for missing facts or unresolved publication choices that materially change the page. CV chronology does not establish how an experience felt.
+Read Skill 06's copy and owner corrections, personality brief, palette and site direction. Build a facts/public-use table for biography, work history, interests, photos, CV and contact links. Ask only for missing facts or unresolved publication choices that materially change the page. CV chronology does not establish how an experience felt.
 
 Choose what the visitor should learn here that Home and Projects do not already explain. Home may give a concise position; About can explain how she works and what informs it. Link to real project evidence where useful rather than repeat full case studies. Avoid padding with generic values, tool lists and unsupported statements about impact.
 
@@ -68,4 +68,4 @@ Validate links/downloads and contact behaviour; remove pretend social destinatio
 
 ## Final implementation checks
 
-Use [Mobile Responsive Design](../07-mobile-responsive-design/SKILL.md) for responsive layout and touch component adaptations. Then use [Design Audit](../06-design-audit/SKILL.md) to verify the page against its source documents and reconcile implementation/maintenance notes. Do not treat the existence of a mobile stylesheet as proof of usable touch behaviour.
+Use [Mobile Responsive Design](../11-mobile-responsive-design/SKILL.md) for responsive layout and touch component adaptations. Then use [Design Audit](../12-design-audit/SKILL.md) to verify the page against its source documents and reconcile implementation/maintenance notes. Do not treat the existence of a mobile stylesheet as proof of usable touch behaviour.

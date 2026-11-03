@@ -27,7 +27,7 @@ Offer two concise story angles grounded in the same facts, rather than two inven
 
 Draft a one-sentence introduction, a short home introduction and a compact About narrative in the owner's voice. Match the amount of real material; do not pad to a fixed length. Use concrete experiences and plain language, and keep accomplishments distinct from future interests. Mark unresolved copy as draft rather than blocking independent planning or claiming approval.
 
-Write `design-notes/12-personal-story.md` with confirmed experiences and source locations, the selected angle or pending options, usable copy, public/private exclusions, owner corrections and remaining factual questions. Skill 04 uses it to plan the site's story; Skill 10 develops it into About. This stage shapes the content, not page code, a new visual identity or a complete rewrite of all project case studies.
+Write `design-notes/06-personal-story.md` with confirmed experiences and source locations, the selected angle or pending options, usable copy, public/private exclusions, owner corrections and remaining factual questions. Skill 07 uses it to plan the site's story; Skill 10 develops it into About. This stage shapes the content, not page code, a new visual identity or a complete rewrite of all project case studies.
 
 
 ## Detailed working procedure
@@ -54,6 +54,6 @@ Use her actual vocabulary and level of formality. If a sentence sounds like a ge
 
 Ask which angle sounds true, what wording feels unnatural and what should not be public. Incorporate factual corrections, separate past work from future ambitions and retain unresolved questions. Do not treat silence as approval. A draft can be used in an internal blueprint when explicitly marked as draft; do not mark it publication-ready until substantive facts and boundaries are resolved.
 
-Save the chosen framing, copy variants, source links, corrections and exclusions in `12-personal-story.md`. Feed the Home/About portions into Skills 04 and 10 without repeating the full interview. If later content contradicts the story, revise the framing rather than hide the evidence.
+Save the chosen framing, copy variants, source links, corrections and exclusions in `06-personal-story.md`. Feed the Home/About portions into Skills 07 and 10 without repeating the full interview. If later content contradicts the story, revise the framing rather than hide the evidence.
 
 **Ready to move on when:** there is a selected or clearly provisional angle, copy grounded in real experiences, an explicit boundary around private details, and a clear distinction between current work and aspirations.

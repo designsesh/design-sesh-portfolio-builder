@@ -9,7 +9,7 @@ Execute in the current website workspace. Read [METHOD.md](../../METHOD.md) once
 
 ## Purpose and timing
 
-Run after representative pages/components exist, or alongside their implementation. Complete it across the agreed routes before [Design Audit](../06-design-audit/SKILL.md). Identify where desktop components become difficult on smaller screens or imprecise input, propose purposeful alternatives and implement supported improvements within scope.
+Run after representative pages/components exist, or alongside their implementation. Complete it across the agreed routes before [Design Audit](../12-design-audit/SKILL.md). Identify where desktop components become difficult on smaller screens or imprecise input, propose purposeful alternatives and implement supported improvements within scope.
 
 Responsiveness is not shrinking the desktop. Preserve each section's purpose, meaningful content and site identity while changing composition, controls or interaction when needed. Width, input precision and hover ability are different conditions. A tablet can have a keyboard/mouse; a wide screen can have touch. Do not identify devices solely by user agent or assume every small viewport lacks a keyboard.
 
@@ -106,9 +106,9 @@ Screenshots demonstrate appearance for captured states. DOM overflow checks can 
 
 Write:
 
-- `design-notes/07-mobile-plan.md`: route/component inventory, failures, proposed alternatives, selected decisions, triggers, retained content/function and desktop protections.
-- `design-notes/07-component-adaptations.csv`: component, source requirement, desktop pattern, mobile replacement, trigger, implementation path, status and verification reference.
-- `design-notes/07-mobile-review.md`: actual test matrix, issues/fixes/retests, environments and limitations.
+- `design-notes/11-mobile-plan.md`: route/component inventory, failures, proposed alternatives, selected decisions, triggers, retained content/function and desktop protections.
+- `design-notes/11-component-adaptations.csv`: component, source requirement, desktop pattern, mobile replacement, trigger, implementation path, status and verification reference.
+- `design-notes/11-mobile-review.md`: actual test matrix, issues/fixes/retests, environments and limitations.
 - Supporting previews/screenshots under `design-notes/mobile-evidence/` when available.
 
 Update the blueprint, affected build notes, decision log and progress with authorized adaptations. Mark changes as proposed, implemented or verified accurately. Hand the design audit the mobile results and unresolved findings. Do not rerun unrelated discovery stages or publish the site.

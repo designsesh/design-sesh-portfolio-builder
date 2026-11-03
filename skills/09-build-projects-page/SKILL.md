@@ -72,4 +72,4 @@ Update the real grid/data source and each page's return/related links. Check tit
 
 ## Final implementation checks
 
-Use [Mobile Responsive Design](../07-mobile-responsive-design/SKILL.md) for responsive layout and touch component adaptations. Then use [Design Audit](../06-design-audit/SKILL.md) to verify the page against its source documents and reconcile implementation/maintenance notes. Do not treat the existence of a mobile stylesheet as proof of usable touch behaviour.
+Use [Mobile Responsive Design](../11-mobile-responsive-design/SKILL.md) for responsive layout and touch component adaptations. Then use [Design Audit](../12-design-audit/SKILL.md) to verify the page against its source documents and reconcile implementation/maintenance notes. Do not treat the existence of a mobile stylesheet as proof of usable touch behaviour.

@@ -10,9 +10,9 @@ Read [WELCOME.md](WELCOME.md) for the complete workflow, folder setup and search
 
 ## Recommended portfolio workflow
 
-**01 → 02 → 11 → 03 → 08 (repeat for each project) → 12 → 04 → 05 → 09 → 10 → 07 → 06**
+**01 → 02 → 03 → 04 → 05 (repeat for each project) → 06 → 07 → 08 → 09 → 10 → 11 → 12**
 
-Folder numbers are stable skill IDs, not the execution order. Project preparation happens before site planning. Projects and About are followed by mobile/touch adaptation, then a design audit against the earlier documentation.
+Folder numbers match execution order: run 01 through 12, repeating 05 for each project. Project preparation happens before site planning. Projects and About are followed by mobile/touch adaptation, then a design audit against the earlier documentation.
 
 ## All 12 skills
 
@@ -20,16 +20,16 @@ Folder numbers are stable skill IDs, not the execution order. Project preparatio
 | --- | --- | --- | --- |
 | 1 | [Skill 01](skills/01-reference-folder-audit/SKILL.md) — Analyze reference images | Uses reference images and screenshots | A visual inventory, recurring patterns, contrasts and buildable ideas |
 | 2 | [Skill 02](skills/02-personality-interview/SKILL.md) — Discover personality and voice | Uses your answers, writing samples and existing personal notes | A brief covering audience, goals, voice, interests and public/private boundaries |
-| 3 | [Skill 11](skills/11-choose-your-colours/SKILL.md) — Choose website colours | Uses uploaded images, favourite sites/brands and brief preference answers | Two or three practical palettes and an owner-selected colour system |
-| 4 | [Skill 03](skills/03-personal-design-directions/SKILL.md) — Choose a design direction | Uses reference audit and personality brief | Distinct visual directions and a recorded choice |
-| 5 | [Skill 08](skills/08-project-folder-to-portfolio/SKILL.md) — Prepare each portfolio project | Uses one project folder with documents, images, prototypes and source files | File index, evidence ledger, curated assets, case-study plan and project-card copy |
-| 6 | [Skill 12](skills/12-find-your-story/SKILL.md) — Find your story | Uses personality notes, real experiences and prepared project evidence | A factual personal story, introduction and About copy in your voice |
-| 7 | [Skill 04](skills/04-site-story-and-personal-touches/SKILL.md) — Plan the site and personal details | Uses chosen direction, personality brief and prepared project stories | Routes, section layouts, copy, asset mapping and purposeful personal touches |
-| 8 | [Skill 05](skills/05-build-personal-site/SKILL.md) — Build the site foundation | Uses site blueprint, chosen direction and approved assets | A working local site, shared design system and page foundations |
+| 3 | [Skill 03](skills/03-choose-your-colours/SKILL.md) — Choose website colours | Uses uploaded images, favourite sites/brands and brief preference answers | Two or three practical palettes and an owner-selected colour system |
+| 4 | [Skill 04](skills/04-personal-design-directions/SKILL.md) — Choose a design direction | Uses reference audit and personality brief | Distinct visual directions and a recorded choice |
+| 5 | [Skill 05](skills/05-project-folder-to-portfolio/SKILL.md) — Prepare each portfolio project | Uses one project folder with documents, images, prototypes and source files | File index, evidence ledger, curated assets, case-study plan and project-card copy |
+| 6 | [Skill 06](skills/06-find-your-story/SKILL.md) — Find your story | Uses personality notes, real experiences and prepared project evidence | A factual personal story, introduction and About copy in your voice |
+| 7 | [Skill 07](skills/07-site-story-and-personal-touches/SKILL.md) — Plan the site and personal details | Uses chosen direction, personality brief and prepared project stories | Routes, section layouts, copy, asset mapping and purposeful personal touches |
+| 8 | [Skill 08](skills/08-build-personal-site/SKILL.md) — Build the site foundation | Uses site blueprint, chosen direction and approved assets | A working local site, shared design system and page foundations |
 | 9 | [Skill 09](skills/09-build-projects-page/SKILL.md) — Build Projects and agreed case studies | Uses prepared projects, blueprint and existing site | A Projects collection with real destinations and any agreed detail pages |
 | 10 | [Skill 10](skills/10-build-about-page/SKILL.md) — Build About in your voice | Uses confirmed biography, personality brief and approved personal assets | An About page that matches you and the rest of the site |
-| 11 | [Skill 07](skills/07-mobile-responsive-design/SKILL.md) — Mobile Responsive Design | Uses the built site, blueprint and existing components | Responsive implementation, touch-friendly alternatives and mobile verification |
-| 12 | [Skill 06](skills/06-design-audit/SKILL.md) — Design Audit | Uses the rendered site and active documentation from earlier skills | Requirement-to-output audit, scoped fixes, retests and current maintenance notes |
+| 11 | [Skill 11](skills/11-mobile-responsive-design/SKILL.md) — Mobile Responsive Design | Uses the built site, blueprint and existing components | Responsive implementation, touch-friendly alternatives and mobile verification |
+| 12 | [Skill 12](skills/12-design-audit/SKILL.md) — Design Audit | Uses the rendered site and active documentation from earlier skills | Requirement-to-output audit, scoped fixes, retests and current maintenance notes |
 
 ## How to use
 
@@ -38,9 +38,9 @@ Folder numbers are stable skill IDs, not the execution order. Project preparatio
 3. Ask Claude to read the relevant `SKILL.md` and execute it. If your environment supports loading skills, its supported loader is another option.
 4. Keep the generated `design-notes/` outputs so later skills and new chats can reuse your decisions.
 
-You provide answers during Skill 02, choose colours with Skill 11, select a direction with Skill 03 and shape your story with Skill 12. Claude should not guess your personality from a mood board. Later, tell it which copy and details feel natural or forced.
+You provide answers during Skill 02, choose colours with Skill 03, select a direction with Skill 04 and shape your story with Skill 06. Claude should not guess your personality from a mood board. Later, tell it which copy and details feel natural or forced.
 
-For a general personal site without a project collection, use **01 → 02 → 11 → 03 → 12 → 04 → 05 → 07 → 06**. For an existing portfolio, run only the needed preparation/page skills, followed by **07 (mobile adaptation) → 06 (design audit)**.
+For a general personal site without a project collection, use **01 → 02 → 03 → 04 → 06 → 07 → 08 → 11 → 12**. For an existing portfolio, run only the needed preparation/page skills, followed by **11 (mobile adaptation) → 12 (design audit)**.
 
 ## What makes this personal
 

@@ -48,6 +48,6 @@ End the conversation with a concise reflection: the intended audience, a few con
 
 ### Carry decisions forward
 
-Update the personality brief and decision log with confirmed facts and preferences. Record material distinctions, such as “warm in wording, restrained in layout,” rather than universal rules like “always playful.” Give Skill 11 the colour-relevant preferences and Skill 03 the broader identity cues. Keep detailed personal stories for Skill 12 so the interviews do not repeat.
+Update the personality brief and decision log with confirmed facts and preferences. Record material distinctions, such as “warm in wording, restrained in layout,” rather than universal rules like “always playful.” Give Skill 03 the colour-relevant preferences and Skill 04 the broader identity cues. Keep detailed personal stories for Skill 06 so the interviews do not repeat.
 
 **Ready to move on when:** the owner has had a chance to answer, audience/purpose are usable, voice and privacy boundaries are recorded, and tentative interpretations are distinguishable from her statements. Unknowns may remain; no personality test or exhaustive autobiography is required.

@@ -40,7 +40,7 @@ For each representative reference, record:
 | Rhythm | Dense versus quiet sections, repeated patterns and deliberate breaks |
 | Typography | Display/body/caption roles, weight, width, tracking; avoid guessing font names |
 | Image treatment | Full bleed, contain, cutout, frame, texture, background and crop |
-| Colour | Dominant neutral, accent placement and saturation relationships; actual selection comes in Skill 11 |
+| Colour | Dominant neutral, accent placement and saturation relationships; actual selection comes in Skill 03 |
 | Detail | A specific label, object, margin note or transition and the function it serves |
 | Interaction | Only observed states; identify proposed behaviour separately |
 
@@ -52,6 +52,6 @@ For each candidate rule, cite reference IDs, explain the communication benefit a
 
 Write a compact matrix: reference pattern → supporting IDs → owner's stated attraction → proposed website use → code/existing-asset feasibility → uncertainty. Ask the owner to resolve the strongest contradiction, not to rank every image. A folder containing both quiet pages and loud posters may imply quiet reading surfaces with a few strong accents; that remains a proposal until confirmed.
 
-Add `design-notes/01-reference-index.csv` if needed for a large collection, and an optional visual contact sheet or pattern board. Preserve original filenames and rights notes. Summarize the strongest reusable principles and what should not be copied. Skill 03 should be able to open exact examples instead of interpreting vague mood adjectives.
+Add `design-notes/01-reference-index.csv` if needed for a large collection, and an optional visual contact sheet or pattern board. Preserve original filenames and rights notes. Summarize the strongest reusable principles and what should not be copied. Skill 04 should be able to open exact examples instead of interpreting vague mood adjectives.
 
 **Ready to move on when:** there is traceable review coverage, a few specific pattern observations, owner questions only where needed, and no claim that an uninspected image or hidden interaction was reviewed. Do not block personality discovery on exhaustive classification of a huge archive.

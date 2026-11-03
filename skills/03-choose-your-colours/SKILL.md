@@ -31,7 +31,7 @@ Show the palettes on the same small sample—a heading, short paragraph, project
 
 Check contrast with available calculation tools for actual text/background combinations: aim for WCAG AA 4.5:1 for normal text, 3:1 for large text and 3:1 for essential UI boundaries/indicators. Check focus visibility and do not convey state by colour alone. Label unmeasured combinations unverified. Make a recommendation, ask which palette feels right and allow a small adjustment; do not silently treat a recommendation as the owner's choice.
 
-Write `design-notes/11-colour-options.md` with sources, key answers, options and recommendation. Once chosen, write `design-notes/11-selected-palette.md` with the chosen roles/hex values, rationale, usable pairings, contrast results or limits, and CSS variables. Feed it into Skill 03; preserve it unless the owner requests a change. This skill chooses colours, not the entire design direction.
+Write `design-notes/03-colour-options.md` with sources, key answers, options and recommendation. Once chosen, write `design-notes/03-selected-palette.md` with the chosen roles/hex values, rationale, usable pairings, contrast results or limits, and CSS variables. Feed it into Skill 04; preserve it unless the owner requests a change. This skill chooses colours, not the entire design direction.
 
 
 ## Practical detail without a long interview
@@ -54,6 +54,6 @@ Test actual combinations including muted captions, button text, hover/focus and 
 
 ### Finalize and carry it forward
 
-Ask which sample feels closest and what single change would improve it. Refine the selected palette rather than restart the discovery exercise. Save role values, CSS variables, allowed pairings, accent placement and contrast evidence in `11-selected-palette.md`. Record the selected option and any superseded one in the decision log.
+Ask which sample feels closest and what single change would improve it. Refine the selected palette rather than restart the discovery exercise. Save role values, CSS variables, allowed pairings, accent placement and contrast evidence in `03-selected-palette.md`. Record the selected option and any superseded one in the decision log.
 
-**Ready for Skill 03 when:** the owner has chosen a palette, usage roles are clear and unresolved contrast checks are labelled. If they need time to choose, keep options tentative and continue independent factual project review; do not silently install your favourite.
+**Ready for Skill 04 when:** the owner has chosen a palette, usage roles are clear and unresolved contrast checks are labelled. If they need time to choose, keep options tentative and continue independent factual project review; do not silently install your favourite.

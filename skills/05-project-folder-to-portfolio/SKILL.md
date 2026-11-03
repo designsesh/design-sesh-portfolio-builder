@@ -11,7 +11,7 @@ Execute in the current website workspace using its active documentation and agre
 
 ## Inputs and scope
 
-Read the supplied project folder and relevant existing site, `design-notes/02-personality-brief.md`, `03-selected-direction.md` and `04-site-blueprint.md` when available. Ask which project folder to process if ambiguous. Work one project at a time. Missing personality notes do not block factual inventory; defer personal styling until a direction is available. This skill prepares content and assets; it does not build pages or add public links to private source folders.
+Read the supplied project folder and relevant existing site, `design-notes/02-personality-brief.md`, `04-selected-direction.md` and `07-site-blueprint.md` when available. Ask which project folder to process if ambiguous. Work one project at a time. Missing personality notes do not block factual inventory; defer personal styling until a direction is available. This skill prepares content and assets; it does not build pages or add public links to private source folders.
 
 ## Inventory and actually understand the material
 

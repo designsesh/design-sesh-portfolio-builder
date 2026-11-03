@@ -9,7 +9,7 @@ Execute in the current website workspace. Read [METHOD.md](../../METHOD.md) once
 
 ## Purpose and place in the workflow
 
-Run after the foundation, Projects, About and [mobile adaptation](../07-mobile-responsive-design/SKILL.md) work, or after a meaningful revision. Check whether the site delivers what the earlier skills documented. Fix supported implementation defects, retest them and leave an accurate record of the delivered system.
+Run after the foundation, Projects, About and [mobile adaptation](../11-mobile-responsive-design/SKILL.md) work, or after a meaningful revision. Check whether the site delivers what the earlier skills documented. Fix supported implementation defects, retest them and leave an accurate record of the delivered system.
 
 This combines design/usability review and the useful parts of handoff: current identity, editable source locations, actual verification and remaining work. There is no separate handoff stage. Do not require earlier stages to be rerun when their existing outputs remain valid.
 
@@ -18,10 +18,10 @@ This combines design/usability review and the useful parts of handoff: current i
 Read the current versions of:
 
 - `design-notes/01-reference-audit.md` and relevant reference IDs/images.
-- `02-personality-brief.md`, `11-selected-palette.md` and `03-selected-direction.md`.
-- `12-personal-story.md` and `04-site-blueprint.md`.
+- `02-personality-brief.md`, `03-selected-palette.md` and `04-selected-direction.md`.
+- `06-personal-story.md` and `07-site-blueprint.md`.
 - Per-project audits, evidence ledgers, case-study plans, asset manifests and maps.
-- `05-build-notes.md`, Projects/About build notes and mobile plan/review.
+- `08-build-notes.md`, Projects/About build notes and mobile plan/review.
 - `decision-log.md`, `progress.md`, repository instructions and existing implementation status.
 
 Use actual paths if the project uses a different convention. Inspect code, templates, content data and the rendered pages. Read notes as specifications, not proof that the described behaviour exists.
@@ -103,8 +103,8 @@ If legacy `06-review.md` or `07-owner-guide.md` exists, read it as prior context
 
 ## Outputs
 
-- `design-notes/06-design-audit.md`: scope, active source documents, findings, fixes, retests, owner decisions and remaining limits.
-- `design-notes/06-design-audit-matrix.csv`: requirement-to-output traceability and final status.
+- `design-notes/12-design-audit.md`: scope, active source documents, findings, fixes, retests, owner decisions and remaining limits.
+- `design-notes/12-design-audit-matrix.csv`: requirement-to-output traceability and final status.
 - Screenshots or other evidence under `design-notes/audit-evidence/` when tools permit; name page, width and state.
 - `design-notes/site-maintenance.md`, updated decisions/progress and affected implementation notes.
 

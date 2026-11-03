@@ -66,7 +66,7 @@ Record a link and a sentence about why you saved it. For example: “I like the 
 
 ## Phase 1: understand your taste and choose a direction
 
-**01 Reference audit → 02 Personality interview → 11 Choose your colours → 03 Design directions**
+**01 Reference audit → 02 Personality interview → 03 Choose your colours → 04 Design directions**
 
 Claude first inspects the reference images and records recurring patterns, differences and what was actually reviewed. Then it asks a few questions about your audience, voice, interests and boundaries, reusing information you have already supplied.
 
@@ -170,7 +170,7 @@ Keep these maps local. They may contain private paths and summaries and are not 
 
 ## Phase 3: find your story and plan the site
 
-**12 Find your story → 04 Site story and personal touches**
+**06 Find your story → 07 Site story and personal touches**
 
 Once the project evidence is available, connect it to your actual background and interests. The story skill offers concise angles and home/About copy based on confirmed experiences. You choose what feels accurate. It does not force an unusual origin story or turn an ambition into a past achievement.
 
@@ -182,7 +182,7 @@ Personal details enter where they have a reason: your phrasing, an object, a sma
 
 ## Phase 4: build a complete local version
 
-**05 Build foundation → 09 Projects → 10 About**
+**08 Build foundation → 09 Projects → 10 About**
 
 Build the shared type, colours, spacing, navigation and footer first. Reuse the selected palette and direction. Use the maps and manifests to locate real project imagery, then make web derivatives instead of sending huge source files to the browser. Keep important text editable in HTML.
 
@@ -194,17 +194,17 @@ Keep experiments recoverable and label the active choice. If you reject a cover 
 
 ## Phase 5: design the mobile experience, then audit the site
 
-**07 Mobile Responsive Design → 06 Design Audit**
+**11 Mobile Responsive Design → 12 Design Audit**
 
-Mobile is a designed form of the same website. After the main pages exist, Skill 07 checks which desktop layouts and interactions remain usable on narrower screens and with touch. It changes components when needed: hover captions can become persistent card text, hotspots can become visible numbered callouts, and a pinned sequence can become an ordinary reading sequence. It does not replace every component with an accordion or add app-like controls without a reason.
+Mobile is a designed form of the same website. After the main pages exist, Skill 11 checks which desktop layouts and interactions remain usable on narrower screens and with touch. It changes components when needed: hover captions can become persistent card text, hotspots can become visible numbered callouts, and a pinned sequence can become an ordinary reading sequence. It does not replace every component with an accordion or add app-like controls without a reason.
 
-The skill records each component's purpose, failure, proposed alternative, trigger and retained content. It implements agreed adaptations, checks real navigation/reading tasks, inspects breakpoint transitions and revisits desktop behaviour. Outputs are `07-mobile-plan.md`, `07-component-adaptations.csv` and `07-mobile-review.md`, with actual verification evidence and explicit limits.
+The skill records each component's purpose, failure, proposed alternative, trigger and retained content. It implements agreed adaptations, checks real navigation/reading tasks, inspects breakpoint transitions and revisits desktop behaviour. Outputs are `11-mobile-plan.md`, `11-component-adaptations.csv` and `11-mobile-review.md`, with actual verification evidence and explicit limits.
 
-Skill 06 then audits the site against the documentation produced earlier: reference principles, personality brief, selected palette, design direction, personal story, site/project blueprints, source evidence and mobile decisions. It traces each requirement to an actual page/component/state. A visually polished site still fails a requirement if it uses the wrong story, omits evidence or contradicts a selected direction.
+Skill 12 then audits the site against the documentation produced earlier: reference principles, personality brief, selected palette, design direction, personal story, site/project blueprints, source evidence and mobile decisions. It traces each requirement to an actual page/component/state. A visually polished site still fails a requirement if it uses the wrong story, omits evidence or contradicts a selected direction.
 
 The audit fixes supported mismatches within scope, retests them and records unresolved decisions without silently changing the specification to make the site pass. It also reconciles the practical maintenance information: preview commands, editable source files, generators, asset replacement and adding another project. This useful handoff material is part of the audit, not a separate stage.
 
-Outputs include `06-design-audit.md`, `06-design-audit-matrix.csv` and `site-maintenance.md`. Save screenshots and check results where tools permit. Distinguish actual-device testing, emulation, static checks and unverified behaviours. Local audit completion is separate from publication.
+Outputs include `12-design-audit.md`, `12-design-audit-matrix.csv` and `site-maintenance.md`. Save screenshots and check results where tools permit. Distinguish actual-device testing, emulation, static checks and unverified behaviours. Local audit completion is separate from publication.
 
 ## Keep progress between Claude chats
 
@@ -214,14 +214,14 @@ A useful continuation prompt:
 
 > Continue my portfolio from the existing files. Read the current design notes and selected direction, then the relevant project audit, case-study plan and map. Reuse completed work and current decisions. Work on [specific next task], record changes and tell me what remains unverified.
 
-When you add a project later, repeat **08 → 09 → 07 → 06**, refreshing its map and notes. Revisit colour or personal story only when your preferences or goals have changed.
+When you add a project later, repeat **05 → 09 → 11 → 12**, refreshing its map and notes. Revisit colour or personal story only when your preferences or goals have changed.
 
 ## Replacing the older end-of-process skills
 
-The earlier review and handoff skills are combined as **Design Audit (06)**. **Mobile Responsive Design (07)** is the new specialist implementation/checking stage before it. Existing project notes remain useful historical context; the new audit reconciles them rather than discarding the work.
+The earlier review and handoff skills are combined as **Design Audit (12)**. **Mobile Responsive Design (11)** is the new specialist implementation/checking stage before it. Existing project notes remain useful historical context; the new audit reconciles them rather than discarding the work.
 
 ## Your full route
 
-**01 References → 02 Personality → 11 Colours → 03 Direction → 08 Project preparation and maps → 12 Your story → 04 Blueprint → 05 Foundation → 09 Projects → 10 About → 07 Mobile and touch → 06 Design audit.**
+**01 References → 02 Personality → 03 Colours → 04 Direction → 05 Project preparation and maps → 06 Your story → 07 Blueprint → 08 Foundation → 09 Projects → 10 About → 11 Mobile and touch → 12 Design audit.**
 
 You supply the work, decisions and what feels true to you. Claude helps inspect, organize, propose, build and verify. [Open START-HERE.md](START-HERE.md) when you are ready to run the first skill.
