@@ -40,3 +40,11 @@ Write under `design-notes/projects/<project-slug>/`:
 - `asset-manifest.csv`: any derivatives with source IDs/paths, output paths, transformations and public-use status.
 
 Verify that manifest paths resolve and originals remain unchanged where tool access allows. Report file totals, curated selection and review limits. Mark readiness per item: ready, needs owner answer, or unavailable. Uncertainty in one claim should not prevent preparing the rest of the project.
+
+## Searchable project map
+
+When Python 3 execution is available, use the kit's `../../tools/project_map.py` to create a local `project-map.json` under this project's notes directory. See the kit's `../../WELCOME.md` section “Make project files easy for AI to find” for commands and the annotation format. Run from the website workspace with the actual kit path, explicit source and separate output directories. This complements the CSV index; it does not replace source review or the evidence ledger.
+
+After inspecting sources, write `project-map-annotations.json` keyed by their exact source-relative paths: observed summary, tags, category, actual review status, public-use status, chapter selection and page/frame/timestamp notes. Leave unknown public-use status unknown. Rebuild with `--annotations` and inspect skipped files and unused annotation paths. Compare checksums when files change and re-review their annotations; a previous permission label does not validate changed content. Do not mark a file understood simply because it was indexed. Keep maps and annotations out of published assets.
+
+If Python is unavailable, finish the CSV and notes and report that the map was not generated. Before handing off, tell the page builder where the map lives and how to search it.
