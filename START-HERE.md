@@ -1,5 +1,7 @@
 # Start here: build a portfolio that feels like you
 
+The skills now include detailed execution procedures, handoff requirements and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
+
 Need setup help? See [INSTALL.md](INSTALL.md) for Claude, ChatGPT Projects and local Codex.
 
 This kit contains **12 skills** for analyzing your references, learning what makes you you, preparing your real project material and building a consistent portfolio. No image generation is needed.
