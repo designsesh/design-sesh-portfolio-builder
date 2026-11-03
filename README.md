@@ -2,7 +2,7 @@
 
 A set of **12 Claude-compatible skills** for turning visual references, your personality and your project files into a portfolio that feels like you. Uses existing images, live text, HTML/CSS, simple SVG and appropriate interactions. **No image generation required.**
 
-Start with [START-HERE.md](START-HERE.md) for workspace setup, a prompt for every skill and instructions for continuing across chats.
+Read [WELCOME.md](WELCOME.md) for the complete workflow, folder setup and searchable Python project maps. Then use [START-HERE.md](START-HERE.md) for workspace setup, a prompt for every skill and instructions for continuing across chats.
 
 ## Recommended portfolio workflow
 
@@ -44,6 +44,8 @@ Confirmed details about you inform specific design choices: your voice, a meanin
 
 ## Files and boundaries
 
+- [`WELCOME.md`](WELCOME.md) explains the process from source folders to a reviewed site.
+- [`tools/project_map.py`](tools/project_map.py) builds and searches local JSON catalogs using Python 3, without extra packages.
 - [`skills/`](skills/) contains all 12 standalone skill folders.
 - [`START-HERE.md`](START-HERE.md) explains inputs, outputs, run order and copy-and-paste prompts.
 - Your own working notes are written to `design-notes/` in your website project.
