@@ -1,5 +1,7 @@
 # The working method behind these skills
 
+Guide 5 of 5. Assistant reference. For task prompts, see [Prompts and feedback](04-PROMPTS-AND-FEEDBACK.md); for execution order, see [Start here](03-START-HERE.md).
+
 Read this once when beginning work or resuming without context. Each skill gives the stage-specific procedure. This shared method describes how decisions and artifacts should connect.
 
 ## Start from what exists

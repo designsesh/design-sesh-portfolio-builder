@@ -1,5 +1,7 @@
 # Add this kit to Claude, ChatGPT or Codex
 
+Guide 2 of 5. Previous: [Welcome](01-WELCOME.md). Next: [Start here](03-START-HERE.md).
+
 Choose the instructions for the product you actually use. A GPT model, a ChatGPT Project, Claude's uploaded skills and a local coding agent do not all load skills the same way.
 
 For this portfolio workflow, the simplest starting point is to give a file-capable assistant the whole kit and ask it to read one skill at a time. Native skill installation is optional. Keep the kit intact: several skills refer to other skills, the welcome guide or `tools/project_map.py`.
@@ -10,17 +12,17 @@ Product instructions checked against the official documentation on **3 November 
 
 Open [design-sesh-portfolio-builder](https://github.com/designsesh/design-sesh-portfolio-builder), choose **Code → Download ZIP**, and extract it. You can also clone the repository with Git. A downloaded folder may end in `-main`; rename it to `design-sesh-portfolio-builder` if you want the guide's example paths to match exactly.
 
-Place it inside your portfolio workspace as shown in [WELCOME.md](WELCOME.md). Keep your references and personal/project source files separate from the kit. Installing skills does not automatically grant access to those materials.
+Place it inside your portfolio workspace as shown in [01-WELCOME.md](01-WELCOME.md). Keep your references and personal/project source files separate from the kit. Installing skills does not automatically grant access to those materials.
 
 ## Option 1: use the files directly — no installation
 
 In an environment that can read your workspace, open the portfolio folder and send:
 
-> My website workspace is this folder. Read `design-sesh-portfolio-builder/WELCOME.md`, then `design-sesh-portfolio-builder/START-HERE.md`. Start by executing `design-sesh-portfolio-builder/skills/01-reference-folder-audit/SKILL.md`. My references are in `references/`. Use the existing kit files for any linked skills or Python tools. Save outputs to `design-notes/`. Do not generate images or run all stages at once.
+> My website workspace is this folder. Read `design-sesh-portfolio-builder/01-WELCOME.md`, then `design-sesh-portfolio-builder/03-START-HERE.md`. Start by executing `design-sesh-portfolio-builder/skills/01-reference-folder-audit/SKILL.md`. My references are in `references/`. Use the existing kit files for any linked skills or Python tools. Save outputs to `design-notes/`. Do not generate images or run all stages at once.
 
 If the assistant cannot read local paths, upload the relevant files or provide a supported connection. A path written in a message is not file access. Upload reference images as images if archive contents are not visually accessible. Supply the whole extracted kit or its ZIP only when the environment can actually inspect/extract it; otherwise attach the active instructions and supporting files separately.
 
-Use [START-HERE.md](START-HERE.md) to select the next skill. Keep completed notes available in later chats. This approach avoids installation differences and preserves the kit's relative links.
+Use [03-START-HERE.md](03-START-HERE.md) to select the next skill. Keep completed notes available in later chats. This approach avoids installation differences and preserves the kit's relative links.
 
 ## Option 2: install in Claude Code locally
 
@@ -58,7 +60,7 @@ reference-folder-audit.zip
 
 Make a packaging copy of the numbered folder and name the copy `reference-folder-audit`; leave the original kit unchanged. Zip that folder, not just its loose contents. [Official custom-skill packaging instructions](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills)
 
-**This kit has shared dependencies.** Uploading an individual skill does not include sibling skills, WELCOME.md or the Python helper. Also provide the intact kit and needed notes in the current working environment, then tell Claude: “Resolve this skill's supporting files from the uploaded/extracted `design-sesh-portfolio-builder` kit.” If Claude cannot resolve them, use Option 1 rather than treating the upload as a self-contained installation. For the full local build and file organization, local Claude Code with workspace access is the clearest route.
+**This kit has shared dependencies.** Uploading an individual skill does not include sibling skills, 01-WELCOME.md or the Python helper. Also provide the intact kit and needed notes in the current working environment, then tell Claude: “Resolve this skill's supporting files from the uploaded/extracted `design-sesh-portfolio-builder` kit.” If Claude cannot resolve them, use Option 1 rather than treating the upload as a self-contained installation. For the full local build and file organization, local Claude Code with workspace access is the clearest route.
 
 ## Option 4: use a ChatGPT Project
 
@@ -111,7 +113,7 @@ If something is missing:
 
 **01 → 02 → 03 → 04 → 05 (per project) → 06 → 07 → 08 → 09 → 10 → 11 → 12**
 
-Use [WELCOME.md](WELCOME.md) for the overall process and [START-HERE.md](START-HERE.md) for prompts. Keep your own private source material and generated project maps outside this public repository.
+Use [01-WELCOME.md](01-WELCOME.md) for the overall process and [03-START-HERE.md](03-START-HERE.md) for prompts. Keep your own private source material and generated project maps outside this public repository.
 
 ## Updating an installation from the earlier kit
 

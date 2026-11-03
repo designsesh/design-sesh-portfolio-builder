@@ -5,7 +5,7 @@ description: Audit and correct an implemented website against its selected visua
 
 # Design Audit
 
-Execute in the current website workspace. Read [METHOD.md](../../METHOD.md) once per workflow. Use available inspection, browser and file tools; do not assume a particular framework, connector or runtime. Preserve original assets and the agreed scope. This skill audits the actual output against prior decisions; it does not invent a new identity or generate images.
+Execute in the current website workspace. Read [05-WORKING-METHOD.md](../../05-WORKING-METHOD.md) once per workflow. Use available inspection, browser and file tools; do not assume a particular framework, connector or runtime. Preserve original assets and the agreed scope. This skill audits the actual output against prior decisions; it does not invent a new identity or generate images.
 
 ## Purpose and place in the workflow
 

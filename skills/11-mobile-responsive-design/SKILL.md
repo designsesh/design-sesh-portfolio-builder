@@ -5,7 +5,7 @@ description: Build and verify responsive layouts and touch-friendly component al
 
 # Mobile Responsive Design
 
-Execute in the current website workspace. Read [METHOD.md](../../METHOD.md) once per workflow. Use available code/browser tools and existing assets; no image generation. This is an implementation and verification skill, not simply a checklist or a narrow-screen screenshot pass.
+Execute in the current website workspace. Read [05-WORKING-METHOD.md](../../05-WORKING-METHOD.md) once per workflow. Use available code/browser tools and existing assets; no image generation. This is an implementation and verification skill, not simply a checklist or a narrow-screen screenshot pass.
 
 ## Purpose and timing
 

@@ -1,12 +1,18 @@
 # Design Sesh Portfolio Builder
 
-The skills now include detailed execution procedures, input/output contracts and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
-
-Need setup help? See [INSTALL.md](INSTALL.md) for Claude, ChatGPT Projects and local Codex.
-
 A set of **12 Claude-compatible skills** for turning visual references, your personality and your project files into a portfolio that feels like you. Uses existing images, live text, HTML/CSS, simple SVG and appropriate interactions. **No image generation required.**
 
-Read [WELCOME.md](WELCOME.md) for the complete workflow, folder setup and searchable Python project maps. Then use [START-HERE.md](START-HERE.md) for workspace setup, a prompt for every skill and instructions for continuing across chats.
+## Read the guides in this order
+
+| Guide | Purpose |
+| --- | --- |
+| [01 — Welcome](01-WELCOME.md) | Understand the full workflow and arrange references, personal content and project folders. |
+| [02 — Set up Claude or GPT](02-SETUP-CLAUDE-AND-GPT.md) | Use the kit with Claude, ChatGPT Projects or Codex; choose direct-file use or skill installation. |
+| [03 — Start here](03-START-HERE.md) | Run skills 01–12 with their inputs, outputs and a prompt for each stage. |
+| [04 — Prompts and feedback](04-PROMPTS-AND-FEEDBACK.md) | Give clear briefs, useful visual feedback, bounded revision requests and continuation prompts. |
+| [05 — Working method](05-WORKING-METHOD.md) | The shared rules the assistant follows for evidence, design decisions, iteration and verification. |
+
+Guide numbers indicate reading order. The separate `skills/01-…` to `skills/12-…` folders indicate execution order. Keep `SKILL.md` filenames unchanged so skill loaders can discover them.
 
 ## Recommended portfolio workflow
 
@@ -48,13 +54,12 @@ Confirmed details about you inform specific design choices: your voice, a meanin
 
 ## Files and boundaries
 
-- [`WELCOME.md`](WELCOME.md) explains the process from source folders to a reviewed site.
-- [`tools/project_map.py`](tools/project_map.py) builds and searches local JSON catalogs using Python 3, without extra packages.
-- [`skills/`](skills/) contains all 12 standalone skill folders.
-- [`START-HERE.md`](START-HERE.md) explains inputs, outputs, run order and copy-and-paste prompts.
-- Your own working notes are written to `design-notes/` in your website project.
-- Project originals remain intact by default. Project claims must have evidence; unknown facts stay unknown.
-- Projects means the collection/index by default. Individual case studies are built when included in your request or agreed blueprint.
-- Building locally and publishing are separate actions. No particular image API, paid font, framework or hosting provider is required.
+- [`skills/`](skills/) contains the 12 detailed skill definitions, numbered in execution order.
+- [`tools/project_map.py`](tools/project_map.py) builds/searches local file catalogs; the welcome guide explains the process.
+- `design-notes/` belongs in your website workspace and records decisions, source evidence and stage outputs.
+- Originals remain intact by default. Unknown facts stay unknown; project claims require evidence.
+- The Projects skill builds the collection and detail pages included in the agreed scope.
+- Mobile Responsive Design (11) adapts components for touch and constrained layouts; Design Audit (12) checks the result against the active documentation.
+- Local implementation does not authorize publication. No image generation or particular hosting/framework is required.
 
-The skill files have basic structural checks; they have not been behavior-tested inside Claude.
+The skill files and guide links have structural checks. Product setup and agent behaviour have not been tested across every Claude/ChatGPT/Codex environment.

@@ -1,12 +1,10 @@
 # Start here: build a portfolio that feels like you
 
-The skills now include detailed execution procedures, input/output contracts and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
-
-Need setup help? See [INSTALL.md](INSTALL.md) for Claude, ChatGPT Projects and local Codex.
+Guide 3 of 5. Previous: [Set up Claude or GPT](02-SETUP-CLAUDE-AND-GPT.md). Keep [Prompts and feedback](04-PROMPTS-AND-FEEDBACK.md) alongside this checklist.
 
 This kit contains **12 skills** for analyzing your references, learning what makes you you, preparing your real project material and building a consistent portfolio. No image generation is needed.
 
-For a guided explanation of the whole process, folder organization and Python file maps, read [WELCOME.md](WELCOME.md).
+For a guided explanation of the whole process, folder organization and Python file maps, read [01-WELCOME.md](01-WELCOME.md).
 
 ## 1. Set up your workspace
 
@@ -16,7 +14,7 @@ Download or clone this repository. The examples below assume you keep it in a fo
 my-portfolio/
   design-sesh-portfolio-builder/
     README.md
-    START-HERE.md
+    03-START-HERE.md
     skills/
   references/
   project-sources/
@@ -61,6 +59,8 @@ Skill 05 runs once per project and stores separate notes for each. It records ac
 Skill 08 builds the shared site and reuses the dedicated page skills where appropriate. Skills 09 and 10 extend that same implementation; if a page is already complete, inspect and improve it instead of building it twice.
 
 ## 4. Copy-and-paste prompts for all 12 skills
+
+These launch each skill. For more precise briefs, visual feedback, controlled revisions and resuming work, use [04 — Prompts and feedback](04-PROMPTS-AND-FEEDBACK.md).
 
 Run these in the order shown. Replace example folder paths and project names with your own. Keep the same website workspace throughout.
 
@@ -135,7 +135,7 @@ If your preferences change, update the selected direction and name which downstr
 
 ## Updating from an older kit
 
-All 12 folders now follow execution order, 01 through 12. Skill names remain the same; folder paths and numbered note filenames have changed to match their stages. Replace old installed discovery links or uploaded copies with this version using [INSTALL.md](INSTALL.md). Keep existing project outputs: locate older notes by their document role, map them to the current names when continuing and avoid overwriting different content. No project source files need moving.
+All 12 folders now follow execution order, 01 through 12. Skill names remain the same; folder paths and numbered note filenames have changed to match their stages. Replace old installed discovery links or uploaded copies with this version using [02-SETUP-CLAUDE-AND-GPT.md](02-SETUP-CLAUDE-AND-GPT.md). Keep existing project outputs: locate older notes by their document role, map them to the current names when continuing and avoid overwriting different content. No project source files need moving.
 
 The former separate review/handoff definitions were replaced by Mobile Responsive Design (11) and Design Audit (12). Existing historical review/owner-guide notes remain input to the final audit.
 

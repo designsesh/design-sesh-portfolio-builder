@@ -1,14 +1,12 @@
 # Welcome to Design Sesh Portfolio Builder
 
-The skills now include detailed execution procedures, input/output contracts and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
-
-Need setup help? See [INSTALL.md](INSTALL.md) for Claude, ChatGPT Projects and local Codex.
+Guide 1 of 5. Next: [Set up Claude or GPT](02-SETUP-CLAUDE-AND-GPT.md). For the execution checklist, see [Start here](03-START-HERE.md).
 
 This is a practical workflow for building a portfolio from your own references, work and personality. You do not need to arrive with a perfect biography, tidy project files or a fully formed visual direction. Bring what you have; the skills help you work through it in a useful order.
 
 The process comes from the Design Sesh portfolio build: collect references, understand the work, organize one project at a time, map the strongest evidence into a story, plan layouts, build locally, adapt components for mobile/touch and audit the result against the documented direction. This kit adapts that process to your identity. It does not prescribe Design Sesh's colours, interests, museum scenes or other personal motifs. It uses existing assets and code rather than image generation.
 
-Use this page to understand the journey. [START-HERE.md](START-HERE.md) has the exact prompts for each stage, and the [README](README.md) lists all 12 skills.
+Use this page to understand the journey. [03-START-HERE.md](03-START-HERE.md) has the exact prompts for each stage, and the [README](README.md) lists all 12 skills.
 
 ## Start with a workspace, not a finished filing system
 
@@ -17,8 +15,11 @@ Create one main folder for your portfolio. Download or clone this repository int
 ```text
 my-portfolio/
   design-sesh-portfolio-builder/       # This kit; keep its skills and tools together
-    WELCOME.md
-    START-HERE.md
+    01-WELCOME.md
+    02-SETUP-CLAUDE-AND-GPT.md
+    03-START-HERE.md
+    04-PROMPTS-AND-FEEDBACK.md
+    05-WORKING-METHOD.md
     skills/
     tools/project_map.py
   references/
@@ -224,4 +225,4 @@ The earlier review and handoff skills are combined as **Design Audit (12)**. **M
 
 **01 References → 02 Personality → 03 Colours → 04 Direction → 05 Project preparation and maps → 06 Your story → 07 Blueprint → 08 Foundation → 09 Projects → 10 About → 11 Mobile and touch → 12 Design audit.**
 
-You supply the work, decisions and what feels true to you. Claude helps inspect, organize, propose, build and verify. [Open START-HERE.md](START-HERE.md) when you are ready to run the first skill.
+You supply the work, decisions and what feels true to you. Claude helps inspect, organize, propose, build and verify. [Open 03-START-HERE.md](03-START-HERE.md) when you are ready to run the first skill.
