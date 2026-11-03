@@ -1,5 +1,7 @@
 # Welcome to Design Sesh Portfolio Builder
 
+Need setup help? See [INSTALL.md](INSTALL.md) for Claude, ChatGPT Projects and local Codex.
+
 This is a practical workflow for building a portfolio from your own references, work and personality. You do not need to arrive with a perfect biography, tidy project files or a fully formed visual direction. Bring what you have; the skills help you work through it in a useful order.
 
 The process comes from the Design Sesh portfolio build: collect references, understand the work, organize one project at a time, map the strongest evidence into a story, plan layouts, build locally and review the result. This kit adapts that process to your identity. It does not prescribe Design Sesh's colours, interests, museum scenes or other personal motifs. It uses existing assets and code rather than image generation.
