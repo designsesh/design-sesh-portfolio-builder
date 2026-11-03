@@ -28,3 +28,7 @@ Implement in the existing stack using the shared header/footer, type scale, spac
 Verify headings, text measure, responsive images, visible focus, links/downloads/contact behaviour, mobile/tablet/desktop layout and overflow using available tools. Ask her which wording and details feel natural versus forced; keep any unanswered feedback as an open item rather than claiming she approved it. Fix factual corrections and clear usability defects, then update the draft and build notes.
 
 Write `design-notes/about-page-build.md`: route/files, factual sources, published personal details, asset sources, personal touches and reasons, implemented checks, limitations and owner feedback still pending. Update the site blueprint. Run personality-and-usability-review and refresh the owner guide after new pages are complete. Do not publish the site as part of this skill alone.
+
+## Reuse the story
+
+Read `design-notes/12-personal-story.md` when present and develop its selected angle and existing copy. Reuse corrections and exclusions. Ask only about missing facts or page-specific choices; do not restart the story interview. Read the selected palette as well as the chosen design direction.
