@@ -14,3 +14,7 @@ Write `design-notes/04-site-blueprint.md` with: routes or single-page sections; 
 Add a 'personal touches' table: confirmed personal detail, proposed expression, location, visitor benefit, source asset/code method, mobile behaviour, keyboard/touch behaviour where interactive, and reduced-motion/static alternative. Examples to adapt only when relevant: a familiar object as a section marker, a tiny note in her own voice, a shelf of selected interests, an optional hover detail, or a footer sign-off. Choose a few strong expressions; do not turn every interest into decoration. Essential information must be visible without hovering, solving a puzzle or knowing an inside joke. Avoid surprise audio, scroll traps and mandatory gates.
 
 Resolve ordinary layout choices using the selected direction. Ask only about missing facts, publishing personal material, or a material change to the selected concept. Preserve the blueprint as the implementation contract, with optional embellishments clearly separated.
+
+## Personal story handoff
+
+Read `design-notes/12-personal-story.md` when present. Use its confirmed angle and copy as the starting point for home and About; preserve exclusions. If the owner needs help connecting experiences, run `../12-find-your-story/SKILL.md` after project preparation and before this blueprint. Do not repeat a settled interview or turn an unselected draft into approved biography.
