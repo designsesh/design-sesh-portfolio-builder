@@ -1,5 +1,7 @@
 # Design Sesh Portfolio Builder
 
+The skills now include detailed execution procedures, handoff requirements and completion checks. [METHOD.md](METHOD.md) explains the shared working approach behind all 12.
+
 Need setup help? See [INSTALL.md](INSTALL.md) for Claude, ChatGPT Projects and local Codex.
 
 A set of **12 Claude-compatible skills** for turning visual references, your personality and your project files into a portfolio that feels like you. Uses existing images, live text, HTML/CSS, simple SVG and appropriate interactions. **No image generation required.**
