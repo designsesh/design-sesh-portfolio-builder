@@ -32,3 +32,7 @@ For authorized case-study pages, follow each project's prepared narrative and ev
 Verify actual card destinations, image loading, keyboard focus, mobile/tablet/desktop wrapping and overflow, contrast and any filters. Check reduced motion for animated embellishments. Use available static and browser checks and name what remains unverified. Keep implementation changes local; publication requires its own authorization.
 
 Write `design-notes/projects-page-build.md` with route/files, collection order, data/content source, chosen personal touches and their basis, implemented detail pages if any, checks performed and outstanding items. Update the site blueprint and mark any relevant earlier review as needing refresh. Run the personality-and-usability-review skill after this page and any detail pages are ready.
+
+## Find source assets through the project map
+
+When a prepared project includes `project-map.json`, search it using the kit's `../../tools/project_map.py` or read its records to locate candidates by reviewed summary, tags and intended chapter. Read the evidence ledger and open the actual matching sources before selecting/exporting them. Map results are pointers, not proof of review or permission. Treat `public_use: unknown` as unresolved, and recheck changed files and final web exports. Keep the local map and source directories out of the public site.
