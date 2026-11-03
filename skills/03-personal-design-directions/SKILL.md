@@ -14,3 +14,7 @@ Write `design-notes/03-design-directions.md`. For each direction include: a plai
 Use existing photographs, honest crops, CSS gradients, live text, simple original SVG shapes or diagrams and optional lightweight motion. Complex objects should use an available asset or a simpler representation; do not promise a photorealistic scene, invent missing source assets, or use an emoji as a substitute for every personal detail. Distinguish decorative metaphors from factual work evidence.
 
 Show the alternatives in a lightweight local comparison page if a coding environment is available; otherwise provide concise written compositions. Label sample copy and placeholders. Ask her to select a direction or name what to combine. Do not silently choose the personality-defining direction for her. Record the selected direction and reasons in `design-notes/03-selected-direction.md`; downstream skills require this selection.
+
+## Colour handoff
+
+Run `../11-choose-your-colours/SKILL.md` after the personality interview when colour selection is part of this workflow. Read `design-notes/11-selected-palette.md` when present and use its approved roles and pairings across design options. Differentiate directions through composition, typography and imagery rather than restarting the colour decision. If colour is unresolved, mark palette treatments tentative and obtain a selection before treating one as final.
