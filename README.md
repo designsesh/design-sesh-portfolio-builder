@@ -1,5 +1,7 @@
 # Design Sesh Portfolio Builder
 
+Need setup help? See [INSTALL.md](INSTALL.md) for Claude, ChatGPT Projects and local Codex.
+
 A set of **12 Claude-compatible skills** for turning visual references, your personality and your project files into a portfolio that feels like you. Uses existing images, live text, HTML/CSS, simple SVG and appropriate interactions. **No image generation required.**
 
 Read [WELCOME.md](WELCOME.md) for the complete workflow, folder setup and searchable Python project maps. Then use [START-HERE.md](START-HERE.md) for workspace setup, a prompt for every skill and instructions for continuing across chats.
