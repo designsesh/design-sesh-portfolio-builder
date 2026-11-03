@@ -2,6 +2,8 @@
 
 This kit contains **12 skills** for analyzing your references, learning what makes you you, preparing your real project material and building a consistent portfolio. No image generation is needed.
 
+For a guided explanation of the whole process, folder organization and Python file maps, read [WELCOME.md](WELCOME.md).
+
 ## 1. Set up your workspace
 
 Download or clone this repository. The examples below assume you keep it in a folder named `design-sesh-portfolio-builder/` inside your website project:
